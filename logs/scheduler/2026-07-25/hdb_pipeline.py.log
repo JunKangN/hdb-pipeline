@@ -1,0 +1,528 @@
+[2026-07-25T09:42:31.111+0000] {processor.py:186} INFO - Started process (PID=159) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:42:31.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:42:31.114+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:42:31.114+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:42:31.143+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:42:31.292+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:42:31.292+0000] {override.py:1932} INFO - Created Permission View: can delete on DAG:hdb_resale_pipeline
+[2026-07-25T09:42:31.299+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:42:31.298+0000] {override.py:1932} INFO - Created Permission View: can edit on DAG:hdb_resale_pipeline
+[2026-07-25T09:42:31.303+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:42:31.303+0000] {override.py:1932} INFO - Created Permission View: can read on DAG:hdb_resale_pipeline
+[2026-07-25T09:42:31.309+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:42:31.309+0000] {override.py:1932} INFO - Created Permission View: can delete on DAG Run:hdb_resale_pipeline
+[2026-07-25T09:42:31.314+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:42:31.314+0000] {override.py:1932} INFO - Created Permission View: menu access on DAG Run:hdb_resale_pipeline
+[2026-07-25T09:42:31.319+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:42:31.319+0000] {override.py:1932} INFO - Created Permission View: can create on DAG Run:hdb_resale_pipeline
+[2026-07-25T09:42:31.324+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:42:31.324+0000] {override.py:1932} INFO - Created Permission View: can read on DAG Run:hdb_resale_pipeline
+[2026-07-25T09:42:31.324+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:42:31.324+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:42:31.331+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:42:31.331+0000] {dag.py:3262} INFO - Creating ORM DAG for hdb_resale_pipeline
+[2026-07-25T09:42:31.337+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:42:31.337+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:42:31.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.244 seconds
+[2026-07-25T09:43:01.499+0000] {processor.py:186} INFO - Started process (PID=166) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:43:01.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:43:01.501+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:43:01.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:43:01.516+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:43:01.532+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:43:01.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:43:01.545+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:43:01.545+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:43:01.557+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.062 seconds
+[2026-07-25T09:43:31.642+0000] {processor.py:186} INFO - Started process (PID=173) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:43:31.643+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:43:31.645+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:43:31.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:43:31.661+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:43:31.677+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:43:31.676+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:43:31.689+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:43:31.689+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:43:31.701+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.062 seconds
+[2026-07-25T09:44:01.820+0000] {processor.py:186} INFO - Started process (PID=180) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:44:01.821+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:44:01.823+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:44:01.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:44:01.839+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:44:01.854+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:44:01.854+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:44:01.868+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:44:01.868+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:44:01.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.062 seconds
+[2026-07-25T09:44:31.967+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:44:31.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:44:31.970+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:44:31.969+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:44:31.986+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:44:32.002+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:44:32.002+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:44:32.016+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:44:32.016+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:44:32.030+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.067 seconds
+[2026-07-25T09:45:02.142+0000] {processor.py:186} INFO - Started process (PID=194) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:45:02.143+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:45:02.145+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:45:02.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:45:02.159+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:45:02.175+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:45:02.175+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:45:02.189+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:45:02.189+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:45:02.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.061 seconds
+[2026-07-25T09:45:32.290+0000] {processor.py:186} INFO - Started process (PID=201) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:45:32.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:45:32.293+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:45:32.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:45:32.308+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:45:32.323+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:45:32.323+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:45:32.337+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:45:32.337+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:45:32.348+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.062 seconds
+[2026-07-25T09:46:02.455+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:46:02.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:46:02.458+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:46:02.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:46:02.473+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:46:02.490+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:46:02.490+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:46:02.506+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:46:02.506+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:46:02.518+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.067 seconds
+[2026-07-25T09:46:15.534+0000] {processor.py:186} INFO - Started process (PID=215) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:46:15.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:46:15.537+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:46:15.537+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:46:15.561+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:46:15.578+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:46:15.578+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:46:15.591+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:46:15.591+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:46:15.605+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.074 seconds
+[2026-07-25T09:46:45.728+0000] {processor.py:186} INFO - Started process (PID=222) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:46:45.729+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:46:45.731+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:46:45.731+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:46:45.746+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:46:45.762+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:46:45.762+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:46:45.775+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:46:45.774+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:46:45.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.061 seconds
+[2026-07-25T09:47:15.890+0000] {processor.py:186} INFO - Started process (PID=229) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:47:15.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:47:15.893+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:47:15.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:47:15.909+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:47:15.931+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:47:15.931+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:47:15.947+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:47:15.947+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:47:15.960+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.073 seconds
+[2026-07-25T09:47:46.074+0000] {processor.py:186} INFO - Started process (PID=236) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:47:46.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:47:46.078+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:47:46.077+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:47:46.093+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:47:46.109+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:47:46.109+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:47:46.122+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:47:46.122+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:47:46.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.064 seconds
+[2026-07-25T09:48:16.222+0000] {processor.py:186} INFO - Started process (PID=243) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:48:16.223+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:48:16.225+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:48:16.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:48:16.241+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:48:16.256+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:48:16.256+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:48:16.269+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:48:16.269+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:48:16.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.063 seconds
+[2026-07-25T09:48:46.397+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:48:46.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:48:46.401+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:48:46.401+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:48:46.420+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:48:46.438+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:48:46.438+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:48:46.453+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:48:46.453+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:48:46.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.073 seconds
+[2026-07-25T09:49:16.543+0000] {processor.py:186} INFO - Started process (PID=257) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:49:16.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:49:16.546+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:49:16.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:49:16.561+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:49:16.578+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:49:16.578+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:49:16.592+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:49:16.592+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:49:16.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.063 seconds
+[2026-07-25T09:49:46.733+0000] {processor.py:186} INFO - Started process (PID=264) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:49:46.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:49:46.736+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:49:46.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:49:46.751+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:49:46.768+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:49:46.768+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:49:46.782+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:49:46.782+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:49:46.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.065 seconds
+[2026-07-25T09:50:16.886+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:50:16.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:50:16.888+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:50:16.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:50:16.904+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:50:16.920+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:50:16.920+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:50:16.934+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:50:16.934+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:50:16.946+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.064 seconds
+[2026-07-25T09:50:47.057+0000] {processor.py:186} INFO - Started process (PID=278) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:50:47.057+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:50:47.059+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:50:47.059+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:50:47.075+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:50:47.091+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:50:47.090+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:50:47.104+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:50:47.103+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:50:47.115+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.062 seconds
+[2026-07-25T09:51:17.210+0000] {processor.py:186} INFO - Started process (PID=285) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:51:17.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:51:17.213+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:51:17.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:51:17.228+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:51:17.244+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:51:17.244+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:51:17.257+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:51:17.257+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:51:17.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.063 seconds
+[2026-07-25T09:51:47.381+0000] {processor.py:186} INFO - Started process (PID=292) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:51:47.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:51:47.384+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:51:47.384+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:51:47.400+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:51:47.418+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:51:47.418+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:51:47.432+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:51:47.432+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:51:47.444+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.066 seconds
+[2026-07-25T09:52:17.531+0000] {processor.py:186} INFO - Started process (PID=299) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:52:17.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:52:17.535+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:52:17.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:52:17.550+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:52:17.566+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:52:17.566+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:52:17.579+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:52:17.579+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:52:17.590+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.062 seconds
+[2026-07-25T09:52:47.720+0000] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:52:47.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:52:47.723+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:52:47.723+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:52:47.737+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:52:47.754+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:52:47.754+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:52:47.768+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:52:47.768+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:52:47.779+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.063 seconds
+[2026-07-25T09:53:17.865+0000] {processor.py:186} INFO - Started process (PID=313) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:53:17.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:53:17.868+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:53:17.867+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:53:17.884+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:53:17.901+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:53:17.901+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:53:17.916+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:53:17.915+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:53:17.930+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.070 seconds
+[2026-07-25T09:53:48.039+0000] {processor.py:186} INFO - Started process (PID=320) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:53:48.040+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:53:48.042+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:53:48.042+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:53:48.059+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:53:48.075+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:53:48.075+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:53:48.088+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:53:48.088+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:53:48.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.065 seconds
+[2026-07-25T09:54:18.185+0000] {processor.py:186} INFO - Started process (PID=327) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:54:18.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:54:18.187+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:54:18.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:54:18.202+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:54:18.218+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:54:18.218+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:54:18.231+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:54:18.231+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:54:18.243+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.061 seconds
+[2026-07-25T09:54:48.363+0000] {processor.py:186} INFO - Started process (PID=334) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:54:48.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:54:48.366+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:54:48.365+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:54:48.380+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:54:48.396+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:54:48.396+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:54:48.409+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:54:48.409+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:54:48.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.061 seconds
+[2026-07-25T09:55:18.512+0000] {processor.py:186} INFO - Started process (PID=341) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:55:18.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:55:18.515+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:55:18.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:55:18.532+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:55:18.549+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:55:18.549+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:55:18.563+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:55:18.563+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:55:18.575+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.066 seconds
+[2026-07-25T09:55:48.688+0000] {processor.py:186} INFO - Started process (PID=348) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:55:48.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:55:48.690+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:55:48.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:55:48.705+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:55:48.721+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:55:48.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:55:48.734+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:55:48.734+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:55:48.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.062 seconds
+[2026-07-25T09:56:18.839+0000] {processor.py:186} INFO - Started process (PID=355) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:56:18.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:56:18.842+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:56:18.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:56:18.858+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:56:18.874+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:56:18.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:56:18.888+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:56:18.888+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:56:18.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.064 seconds
+[2026-07-25T09:56:49.011+0000] {processor.py:186} INFO - Started process (PID=362) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:56:49.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:56:49.014+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:56:49.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:56:49.029+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:56:49.045+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:56:49.045+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:56:49.058+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:56:49.058+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:56:49.070+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.062 seconds
+[2026-07-25T09:57:19.158+0000] {processor.py:186} INFO - Started process (PID=369) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:57:19.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:57:19.161+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:57:19.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:57:19.176+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:57:19.192+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:57:19.192+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:57:19.205+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:57:19.205+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:57:19.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.062 seconds
+[2026-07-25T09:57:49.350+0000] {processor.py:186} INFO - Started process (PID=376) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:57:49.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:57:49.353+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:57:49.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:57:49.368+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:57:49.384+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:57:49.383+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:57:49.396+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:57:49.396+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:57:49.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.060 seconds
+[2026-07-25T09:58:15.479+0000] {processor.py:186} INFO - Started process (PID=383) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:58:15.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:58:15.482+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:58:15.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:58:16.602+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:58:16.666+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:58:16.665+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:58:16.677+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:58:16.677+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:58:16.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 1.215 seconds
+[2026-07-25T09:58:46.846+0000] {processor.py:186} INFO - Started process (PID=406) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:58:46.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:58:46.849+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:58:46.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:58:47.231+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:58:47.244+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:58:47.244+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:58:47.256+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:58:47.256+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:58:47.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.424 seconds
+[2026-07-25T09:58:50.317+0000] {processor.py:186} INFO - Started process (PID=423) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:58:50.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:58:50.320+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:58:50.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:58:50.707+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:58:50.721+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:58:50.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:58:50.733+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:58:50.733+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:58:50.748+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.435 seconds
+[2026-07-25T09:59:20.912+0000] {processor.py:186} INFO - Started process (PID=446) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:59:20.913+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:59:20.915+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:59:20.915+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:59:21.335+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:59:21.350+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:59:21.350+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:59:21.362+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:59:21.362+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:59:21.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.465 seconds
+[2026-07-25T09:59:51.541+0000] {processor.py:186} INFO - Started process (PID=470) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:59:51.542+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T09:59:51.544+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:59:51.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:59:51.920+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T09:59:51.934+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:59:51.934+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T09:59:51.946+0000] {logging_mixin.py:190} INFO - [2026-07-25T09:59:51.946+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T09:59:51.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.427 seconds
+[2026-07-25T10:00:22.124+0000] {processor.py:186} INFO - Started process (PID=493) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:00:22.125+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:00:22.127+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:00:22.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:00:22.491+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:00:22.505+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:00:22.505+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:00:22.517+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:00:22.517+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T10:00:22.527+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.406 seconds
+[2026-07-25T10:00:52.683+0000] {processor.py:186} INFO - Started process (PID=516) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:00:52.684+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:00:52.686+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:00:52.685+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:00:53.098+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:00:53.112+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:00:53.112+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:00:53.123+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:00:53.123+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T10:00:53.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.454 seconds
+[2026-07-25T10:01:23.297+0000] {processor.py:186} INFO - Started process (PID=539) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:01:23.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:01:23.300+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:01:23.300+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:01:23.687+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:01:23.701+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:01:23.701+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:01:23.713+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:01:23.713+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T10:01:23.723+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.430 seconds
+[2026-07-25T10:01:53.885+0000] {processor.py:186} INFO - Started process (PID=562) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:01:53.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:01:53.888+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:01:53.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:01:54.258+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:01:54.272+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:01:54.272+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:01:54.284+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:01:54.284+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T10:01:54.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.414 seconds
+[2026-07-25T10:02:24.456+0000] {processor.py:186} INFO - Started process (PID=585) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:02:24.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:02:24.458+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:02:24.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:02:24.836+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:02:24.850+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:02:24.850+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:02:24.862+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:02:24.862+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T10:02:24.872+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.420 seconds
+[2026-07-25T10:11:55.669+0000] {processor.py:186} INFO - Started process (PID=39) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:11:55.670+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:11:55.673+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:11:55.673+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:11:57.250+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:11:57.277+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:11:57.276+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:11:57.296+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:11:57.296+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-24 00:00:00+00:00, run_after=2026-07-25 00:00:00+00:00
+[2026-07-25T10:11:57.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 1.645 seconds
+[2026-07-25T10:12:27.478+0000] {processor.py:186} INFO - Started process (PID=69) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:12:27.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:12:27.482+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:12:27.481+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:12:27.996+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:12:28.013+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:12:28.012+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:12:28.026+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:12:28.026+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:12:28.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.566 seconds
+[2026-07-25T10:12:58.180+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:12:58.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:12:58.182+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:12:58.182+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:12:58.581+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:12:58.595+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:12:58.594+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:12:58.608+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:12:58.607+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:12:58.624+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.448 seconds
+[2026-07-25T10:13:28.766+0000] {processor.py:186} INFO - Started process (PID=115) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:13:28.767+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:13:28.769+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:13:28.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:13:29.121+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:13:29.134+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:13:29.134+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:13:29.146+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:13:29.146+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:13:29.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.395 seconds
+[2026-07-25T10:13:59.302+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:13:59.302+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:13:59.304+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:13:59.304+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:13:59.683+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:13:59.698+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:13:59.698+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:13:59.710+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:13:59.710+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:13:59.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.423 seconds
+[2026-07-25T10:14:29.868+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:14:29.869+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:14:29.871+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:14:29.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:14:30.286+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:14:30.299+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:14:30.299+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:14:30.311+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:14:30.311+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:14:30.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.459 seconds
+[2026-07-25T10:15:00.467+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:15:00.468+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:15:00.470+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:15:00.470+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:15:00.855+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:15:00.870+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:15:00.870+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:15:00.883+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:15:00.883+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:15:00.894+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.430 seconds
+[2026-07-25T10:15:31.035+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:15:31.036+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:15:31.038+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:15:31.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:15:31.404+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:15:31.418+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:15:31.418+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:15:31.431+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:15:31.431+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:15:31.442+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.410 seconds
+[2026-07-25T10:16:01.588+0000] {processor.py:186} INFO - Started process (PID=231) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:16:01.589+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:16:01.591+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:16:01.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:16:01.979+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:16:01.993+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:16:01.993+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:16:02.005+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:16:02.005+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:16:02.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.431 seconds
+[2026-07-25T10:16:32.153+0000] {processor.py:186} INFO - Started process (PID=254) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:16:32.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:16:32.155+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:16:32.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:16:32.521+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:16:32.535+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:16:32.535+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:16:32.547+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:16:32.547+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:16:32.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.409 seconds
+[2026-07-25T10:17:02.721+0000] {processor.py:186} INFO - Started process (PID=277) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:17:02.721+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:17:02.723+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:17:02.723+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:17:03.092+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:17:03.105+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:17:03.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:17:03.117+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:17:03.117+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:17:03.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.420 seconds
+[2026-07-25T10:17:33.280+0000] {processor.py:186} INFO - Started process (PID=300) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:17:33.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:17:33.282+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:17:33.282+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:17:33.647+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:17:33.660+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:17:33.660+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:17:33.672+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:17:33.672+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:17:33.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.406 seconds
+[2026-07-25T10:18:03.824+0000] {processor.py:186} INFO - Started process (PID=323) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:18:03.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:18:03.826+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:18:03.826+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:18:04.080+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:18:04.203+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:18:04.203+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:18:04.214+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:18:04.214+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:18:04.224+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.404 seconds
+[2026-07-25T10:18:18.314+0000] {processor.py:186} INFO - Started process (PID=340) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:18:18.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:18:18.317+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:18:18.316+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:18:18.711+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:18:18.725+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:18:18.725+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:18:18.737+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:18:18.737+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:18:18.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.439 seconds
+[2026-07-25T10:18:29.831+0000] {processor.py:186} INFO - Started process (PID=363) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:18:29.831+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:18:29.833+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:18:29.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:18:30.204+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:18:30.217+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:18:30.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:18:30.228+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:18:30.228+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:18:30.240+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.413 seconds
+[2026-07-25T10:19:00.388+0000] {processor.py:186} INFO - Started process (PID=386) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:19:00.388+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:19:00.390+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:19:00.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:19:00.759+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:19:00.773+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:19:00.772+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:19:00.784+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:19:00.784+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:19:00.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.411 seconds
+[2026-07-25T10:19:30.935+0000] {processor.py:186} INFO - Started process (PID=409) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:19:30.936+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:19:30.938+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:19:30.938+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:19:31.300+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:19:31.315+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:19:31.314+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:19:31.327+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:19:31.327+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:19:31.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.407 seconds
+[2026-07-25T10:20:01.475+0000] {processor.py:186} INFO - Started process (PID=432) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:20:01.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:20:01.477+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:20:01.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:20:01.737+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:20:01.863+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:20:01.863+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:20:01.875+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:20:01.875+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:20:01.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.414 seconds
+[2026-07-25T10:20:32.028+0000] {processor.py:186} INFO - Started process (PID=455) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:20:32.028+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:20:32.030+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:20:32.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:20:32.390+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:20:32.403+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:20:32.403+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:20:32.415+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:20:32.415+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:20:32.426+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.402 seconds
+[2026-07-25T10:21:02.564+0000] {processor.py:186} INFO - Started process (PID=478) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:21:02.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:21:02.566+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:21:02.566+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:21:02.960+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:21:02.973+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:21:02.973+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:21:02.985+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:21:02.985+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:21:02.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.435 seconds
+[2026-07-25T10:21:33.132+0000] {processor.py:186} INFO - Started process (PID=501) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:21:33.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:21:33.135+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:21:33.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:21:33.531+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:21:33.546+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:21:33.546+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:21:33.560+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:21:33.560+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:21:33.571+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.442 seconds
+[2026-07-25T10:22:03.748+0000] {processor.py:186} INFO - Started process (PID=524) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:22:03.748+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:22:03.750+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:22:03.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:22:04.122+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:22:04.136+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:22:04.136+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:22:04.148+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:22:04.148+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:22:04.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.415 seconds
+[2026-07-25T10:22:34.303+0000] {processor.py:186} INFO - Started process (PID=547) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:22:34.304+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:22:34.306+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:22:34.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:22:34.683+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:22:34.698+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:22:34.698+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:22:34.710+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:22:34.710+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:22:34.720+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.420 seconds
+[2026-07-25T10:23:04.858+0000] {processor.py:186} INFO - Started process (PID=570) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:23:04.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:23:04.861+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:23:04.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:23:05.228+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:23:05.242+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:23:05.241+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:23:05.253+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:23:05.253+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:23:05.264+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.409 seconds
+[2026-07-25T10:23:35.404+0000] {processor.py:186} INFO - Started process (PID=593) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:23:35.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:23:35.407+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:23:35.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:23:35.803+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:23:35.816+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:23:35.816+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:23:35.828+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:23:35.828+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:23:35.839+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.438 seconds
+[2026-07-25T10:24:05.979+0000] {processor.py:186} INFO - Started process (PID=616) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:24:05.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:24:05.981+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:24:05.981+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:24:06.350+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:24:06.365+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:24:06.365+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:24:06.378+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:24:06.378+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:24:06.390+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.415 seconds
+[2026-07-25T10:24:36.536+0000] {processor.py:186} INFO - Started process (PID=639) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:24:36.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:24:36.539+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:24:36.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:24:36.922+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:24:36.937+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:24:36.937+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:24:36.949+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:24:36.949+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:24:36.960+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.427 seconds
+[2026-07-25T10:25:07.102+0000] {processor.py:186} INFO - Started process (PID=662) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:25:07.103+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:25:07.104+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:25:07.104+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:25:07.471+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:25:07.485+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:25:07.484+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:25:07.496+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:25:07.496+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:25:07.507+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.409 seconds
+[2026-07-25T10:25:37.647+0000] {processor.py:186} INFO - Started process (PID=685) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:25:37.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:25:37.650+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:25:37.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:25:38.010+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:25:38.022+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:25:38.022+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:25:38.034+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:25:38.034+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:25:38.044+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.401 seconds
+[2026-07-25T10:26:08.181+0000] {processor.py:186} INFO - Started process (PID=708) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:26:08.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:26:08.184+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:26:08.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:26:08.548+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:26:08.562+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:26:08.562+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:26:08.574+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:26:08.573+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:26:08.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.407 seconds
+[2026-07-25T10:26:38.723+0000] {processor.py:186} INFO - Started process (PID=731) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:26:38.724+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:26:38.726+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:26:38.725+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:26:39.096+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:26:39.109+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:26:39.109+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:26:39.121+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:26:39.120+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:26:39.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.412 seconds
+[2026-07-25T10:27:09.272+0000] {processor.py:186} INFO - Started process (PID=754) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:27:09.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
+[2026-07-25T10:27:09.275+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:27:09.274+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:27:09.656+0000] {processor.py:925} INFO - DAG(s) 'hdb_resale_pipeline' retrieved from /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:27:09.671+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:27:09.670+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T10:27:09.682+0000] {logging_mixin.py:190} INFO - [2026-07-25T10:27:09.682+0000] {dag.py:4180} INFO - Setting next_dagrun for hdb_resale_pipeline to 2026-07-25 00:00:00+00:00, run_after=2026-07-26 00:00:00+00:00
+[2026-07-25T10:27:09.693+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hdb_pipeline.py took 0.425 seconds
+[2026-07-25T10:27:39.833+0000] {processor.py:186} INFO - Started process (PID=777) to work on /opt/airflow/dags/hdb_pipeline.py
+[2026-07-25T10:27:39.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hdb_pipeline.py for tasks to queue
