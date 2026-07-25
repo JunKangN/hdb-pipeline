@@ -12,9 +12,14 @@ data.gov.sg API → Apache Airflow (orchestration) → CSV (local storage)
 
 The pipeline runs daily and consists of 3 tasks:
 
+## Pipeline Overview
+
+The pipeline runs daily and consists of 4 tasks:
+
 1. **fetch_hdb_data** — Calls the data.gov.sg API and retrieves up to 10,000 HDB resale transactions, paginating through results in batches of 1,000
-2. **transform_data** — Cleans column names, converts data types, and adds a derived `price_per_sqm` column
-3. **save_data** — Aggregates results by town, computing average price, median price, and total transaction count
+2. **validate_data** — Checks record count, required columns, and null price percentage before allowing processing to continue
+3. **transform_data** — Cleans column names, converts data types, and adds a derived `price_per_sqm` column. Writes cleaned records to PostgreSQL
+4. **save_data** — Aggregates results by town, computing average price, median price, and total transaction count. Writes summary to PostgreSQL
 
 ## Tech Stack
 
@@ -57,13 +62,12 @@ Enable and trigger the `hdb_resale_pipeline` DAG.
 
 ## Output
 
-The pipeline produces 3 files in `dags/data/`:
+Two PostgreSQL tables in the `hdb_pipeline` database:
 
-| File | Description |
+| Table | Description |
 |---|---|
-| `hdb_raw.csv` | Raw API response, 10,000 records |
-| `hdb_cleaned.csv` | Cleaned data with price_per_sqm column added |
-| `hdb_summary.csv` | Average and median resale price by town, sorted by price |
+| `hdb_resale_transactions` | Cleaned transaction records with price_per_sqm column |
+| `hdb_price_summary` | Average and median resale price by town, sorted by price |
 
 ## Sample Output
 
