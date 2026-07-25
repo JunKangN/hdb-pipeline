@@ -5,12 +5,11 @@ import requests
 import pandas as pd
 import os
 import time
+from sqlalchemy import create_engine
 
 RAW_DATA_PATH = "/opt/airflow/dags/data/hdb_raw.csv"
-CLEANED_DATA_PATH = "/opt/airflow/dags/data/hdb_cleaned.csv"
 DATASET_ID = "d_8b84c4ee58e3cfc0ece0d773c8ca6abc"
-
-
+DB_CONN = "postgresql+psycopg2://airflow:airflow@postgres/hdb_pipeline"
 
 def fetch_hdb_data():
     print("Fetching HDB resale data from data.gov.sg...")
@@ -42,7 +41,7 @@ def fetch_hdb_data():
         offset += limit
         print(f"Fetched {len(all_records)} records so far...")
         
-        time.sleep(1)  # 1 second pause between requests
+        time.sleep(1)
         
         if offset >= 10000:
             break
@@ -52,35 +51,66 @@ def fetch_hdb_data():
     df.to_csv(RAW_DATA_PATH, index=False)
     print(f"Saved {len(df)} records to {RAW_DATA_PATH}")
 
+def validate_data():
+    '''
+    What each check does:
+
+    Check 1 — if the API returns fewer than 100 records, something is wrong — abort
+    Check 2 — if expected columns are missing, the API structure changed — abort
+    Check 3 — if more than 10% of prices are null, data quality is too poor to process — abort
+
+    If any check fails, Airflow marks the task as failed and stops the pipeline — transform and save never run, so good data won't be overwritten with bad data.
+    '''
+    print("Validating fetched data...")
+    
+    if not os.path.exists(RAW_DATA_PATH):
+        raise FileNotFoundError(f"Raw data file not found at {RAW_DATA_PATH}")
+    
+    df = pd.read_csv(RAW_DATA_PATH)
+    
+    # Check 1 — minimum record count
+    if len(df) < 100:
+        raise ValueError(f"Too few records: {len(df)}. Expected at least 100.")
+    
+    # Check 2 — required columns exist
+    required_columns = ["month", "town", "flat_type", "resale_price", "floor_area_sqm"]
+    missing_columns = [col for col in required_columns if col not in df.columns]
+    if missing_columns:
+        raise ValueError(f"Missing required columns: {missing_columns}")
+    
+    # Check 3 — no completely empty resale_price column
+    null_price_pct = df["resale_price"].isnull().mean()
+    if null_price_pct > 0.1:
+        raise ValueError(f"Too many null prices: {null_price_pct:.1%}")
+    
+    print(f"Validation passed — {len(df)} records, all required columns present")
+
 def transform_data():
     print("Transforming HDB data...")
     
     df = pd.read_csv(RAW_DATA_PATH)
     
-    # Clean column names
     df.columns = df.columns.str.lower().str.replace(" ", "_")
-    
-    # Convert price to numeric
     df["resale_price"] = pd.to_numeric(df["resale_price"], errors="coerce")
-    
-    # Convert floor area to numeric
     df["floor_area_sqm"] = pd.to_numeric(df["floor_area_sqm"], errors="coerce")
-    
-    # Add price per sqm column
     df["price_per_sqm"] = (df["resale_price"] / df["floor_area_sqm"]).round(2)
-    
-    # Drop rows with missing prices
     df = df.dropna(subset=["resale_price"])
     
-    df.to_csv(CLEANED_DATA_PATH, index=False)
-    print(f"Transformed data saved — {len(df)} clean records")
+    engine = create_engine(DB_CONN)
+    df.to_sql(
+        "hdb_resale_transactions",
+        engine,
+        if_exists="replace",
+        index=False
+    )
+    print(f"Written {len(df)} records to hdb_resale_transactions table")
 
 def save_data():
-    print("Summarising cleaned HDB data...")
+    print("Summarising HDB data...")
     
-    df = pd.read_csv(CLEANED_DATA_PATH)
+    engine = create_engine(DB_CONN)
+    df = pd.read_sql("SELECT * FROM hdb_resale_transactions", engine)
     
-    # Average price by town
     summary = df.groupby("town")["resale_price"].agg(
         avg_price="mean",
         median_price="median",
@@ -89,14 +119,17 @@ def save_data():
     
     summary = summary.sort_values("avg_price", ascending=False)
     
+    summary.to_sql(
+        "hdb_price_summary",
+        engine,
+        if_exists="replace",
+        index=False
+    )
+    
     print("\n--- Top 5 Most Expensive Towns ---")
     print(summary.head())
-    
-    summary_path = "/opt/airflow/dags/data/hdb_summary.csv"
-    summary.to_csv(summary_path, index=False)
-    print(f"Summary saved to {summary_path}")
+    print("Summary written to hdb_price_summary table")
 
-# DAG definition
 with DAG(
     dag_id="hdb_resale_pipeline",
     start_date=datetime(2025, 7, 1),
@@ -105,7 +138,6 @@ with DAG(
     tags=["hdb", "singapore"]
 ) as dag:
 
-# The tasks
     fetch = PythonOperator(
         task_id="fetch_hdb_data",
         python_callable=fetch_hdb_data
@@ -121,4 +153,11 @@ with DAG(
         python_callable=save_data
     )
 
-    fetch >> transform >> save
+    validate = PythonOperator(
+        task_id="validate_data",
+        python_callable=validate_data
+    )
+
+    fetch >> validate >> transform >> save
+
+    
