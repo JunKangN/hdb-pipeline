@@ -6,7 +6,7 @@ Built as a portfolio project to demonstrate data engineering skills relevant to 
 
 ## Architecture
 
-data.gov.sg API → Apache Airflow (orchestration) → CSV (local storage)
+data.gov.sg API → Apache Airflow (orchestration) → PostgreSQL (hdb_pipeline database)
 
 ## Pipeline Overview
 
