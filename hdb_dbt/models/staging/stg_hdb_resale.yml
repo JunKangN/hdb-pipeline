@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: stg_hdb_resale
+    description: "Cleaned HDB resale transaction data"
+    columns:
+      - name: town
+        description: "HDB town name"
+        tests:
+          - not_null
+      - name: resale_price
+        description: "Resale price in SGD"
+        tests:
+          - not_null
+      - name: floor_area_sqm
+        description: "Floor area in square metres"
+        tests:
+          - not_null
+      - name: flat_type
+        description: "Type of flat"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['1 ROOM', '2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM', 'EXECUTIVE', 'MULTI-GENERATION']

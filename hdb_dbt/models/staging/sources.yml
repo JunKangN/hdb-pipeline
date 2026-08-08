@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: hdb_pipeline
+    database: hdb_pipeline
+    schema: public
+    tables:
+      - name: hdb_resale_transactions
+        description: "Raw HDB resale transaction data fetched from data.gov.sg API"
