@@ -1,5 +1,8 @@
 logs/
 dags/data/
-__pycache__/
+hdb_dbt/target/
+hdb_dbt/dbt_packages/
+hdb_dbt/logs/
 .env
-logs/
+__pycache__/
+*.pyc
